@@ -1,7 +1,7 @@
 import os
 import csv
 
-pypoll_csv = os.path.join("C:/Users/matt/Desktop/election_data.csv")
+pypoll_csv = os.path.join("resources/election_data.csv")
 
 with open(pypoll_csv, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")

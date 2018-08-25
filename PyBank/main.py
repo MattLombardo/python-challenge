@@ -1,7 +1,7 @@
 import os
 import csv
 
-pybank_csv = os.path.join("C:/Users/matt/Desktop/budget_data.csv")
+pybank_csv = os.path.join("resources/budget_data.csv")
 
 with open(pybank_csv, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
